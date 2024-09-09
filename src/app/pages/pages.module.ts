@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 
 
 
+
 @NgModule({
   declarations: [
     DashboardComponent,
@@ -32,7 +33,8 @@ import { FormsModule } from '@angular/forms';
     SharedModule,
     RouterModule,
     FormsModule,
-    ComponentsModule
+    ComponentsModule,
+
   ]
 })
 export class PagesModule { }
